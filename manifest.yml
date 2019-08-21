@@ -1,0 +1,6 @@
+---
+applications:
+- name: Redis_Sample
+  buildpack: dicf_dotnet_core_buildpack_2_2_4 
+  services:
+    - RedisInstace
